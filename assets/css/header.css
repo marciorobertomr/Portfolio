@@ -1,0 +1,24 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1.5em 4em;
+}
+
+.cabecalho-nome {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.cabecalho-links ul {
+    display: flex;
+    gap: 3em;
+
+    list-style: none;
+}
+
+.cabecalho-links a {
+    text-decoration: none;
+}
