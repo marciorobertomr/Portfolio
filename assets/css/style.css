@@ -6,5 +6,10 @@
     box-sizing: border-box;
 
     font-family: 'Raleway', sans-serif;
-    color: black;
+    color: #464646;
+
+}
+
+body {
+    background-color: #F5F5F5;
 }

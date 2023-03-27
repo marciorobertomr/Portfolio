@@ -1,0 +1,60 @@
+.perfil {
+    display: flex;
+    align-items: center;
+
+    margin: 3em 9em;
+}
+
+.perfil_sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+
+    width: 70%;
+    margin: 4em 1em 4em 0;
+}
+
+.perfil_sobre-mim h1 {
+    font-size: 2.6em;
+    line-height: 1.1em;
+}
+
+.perfil_sobre-mim p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    word-wrap: break-word;
+
+    /* margin: 1em auto; */
+}
+
+.perfil_redes-sociais {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+}
+
+.perfil_redes-sociais a {
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+}
+
+.perfil_redes-sociais a::after {
+    content: url(../img/seta.svg);
+
+    margin-left: 0.2em;
+}
+
+.perfil_foto {
+    width: 30%;
+}
+
+.perfil_foto img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+
+}
+

@@ -1,0 +1,15 @@
+.sobre-mim {
+    background-color: #EAF2FD;
+}
+
+.sobre-mim_informacoes {
+    padding: 4em 9em;
+}
+
+.sobre-mim_informacoes h2 {
+    font-size: 2em;
+}
+
+.sobre-mim_informacoes p {
+    margin: 1em auto;
+}

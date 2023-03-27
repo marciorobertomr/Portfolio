@@ -1,0 +1,39 @@
+.habilidades {
+    margin: 2em 9em;
+}
+
+.habilidades_skills, .habilidades_hobbies {
+    margin-bottom: 5em;
+}
+
+.habilidades h2 {
+    font-size: 2em;
+    text-align: center;
+
+    margin-bottom: 1em;
+}
+
+.habilidades_skills-lista, .habilidades_hobbies-lista {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.habilidades_skills-lista li, .habilidades_hobbies-lista li {
+    list-style: none;
+    
+    height: 10em;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    flex: 1;
+    background-color: #FFFFFF;
+}
+
+.habilidades_skills-lista img, .habilidades_hobbies-lista img {
+    width: 2em;
+    margin-bottom: 0.5em;
+}
