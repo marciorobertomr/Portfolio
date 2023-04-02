@@ -1,0 +1,41 @@
+.experiencia {
+    margin: 4em 9em;
+}
+
+.experiencia h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.experiencia_projetos-detalhes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4em;
+}
+
+.experiencia_projetos-detalhes img {
+    width: 75%;
+    /* border: 2px solid rgb(151, 148, 148); */
+}
+
+.experiencia_projetos-detalhes p {
+    margin: 0.5em 0;
+}
+
+.experiencia_projetos-detalhes:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.experiencia_projetos-detalhes button {
+    padding: 1em;
+    color: white;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
+
+.experiencia_projetos-detalhes button:nth-child(odd) {
+    color: #2A7AE4;
+    background-color: transparent;
+    border: 1px solid #2A7AE4;
+}

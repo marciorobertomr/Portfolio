@@ -1,0 +1,32 @@
+.academico {
+    background-color: #EAF2FD;
+    padding: 4em 9em;
+}
+
+.academico h2 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.academico article {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.academico img {
+    width: 80%;
+}
+
+.academico_container-imagem {
+    display: flex;
+    justify-content: center;
+
+    padding: 4em 4em;
+
+    background-color: #FFFFFF;
+}
+
+.academico_cursos h4 {
+    padding: 0.5em 0;
+}
