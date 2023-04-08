@@ -19,6 +19,10 @@
     /* border: 2px solid rgb(151, 148, 148); */
 }
 
+.experiencia_projetos-detalhes h4 {
+    font-size: 1.1em;
+}
+
 .experiencia_projetos-detalhes p {
     margin: 0.5em 0;
 }
@@ -32,6 +36,7 @@
     color: white;
     background-color: #2A7AE4;
     border: 1px solid #2A7AE4;
+    cursor: pointer;
 }
 
 .experiencia_projetos-detalhes button:nth-child(odd) {

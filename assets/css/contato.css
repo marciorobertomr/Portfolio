@@ -1,0 +1,107 @@
+.contato {
+    background-color: #EAF2FD;
+    padding: 8em 9em 4em;
+
+    display: flex;
+}
+
+.contato_imagem {
+    flex: 4;
+}
+
+.contato_imagem img {
+    width: 94.6%;
+}
+
+.contato_formulario {
+    flex: 5;
+}
+
+.contato_formulario h2 {
+    margin-bottom: 0.5em;
+}
+
+.contato_formulario-dados {
+    margin: 2em 0;
+}
+
+.contato_formulario-dados button {
+    padding: 1em;
+    color: white;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    cursor: pointer;
+}
+
+.contato_formulario-campos {
+    background-color: #FFFFFF;
+
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    margin: 1.2em 0;
+}
+
+.contato_formulario-campos input {
+    padding: 1.3em 0.5em 0.5em;
+    height: 4em;
+
+    border: none;
+}
+
+.contato_formulario-campos input::placeholder {
+    visibility: hidden;
+}
+
+.contato_formulario-campos input:focus {
+    outline: none;
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.contato_formulario-campos label {
+    position: absolute;
+    top: 1.3em;
+    left: 0.5em;
+
+    transition: all .25s;
+}
+
+input:focus + label {
+    color: #2A7AE4;
+}
+
+input:not(:placeholder-shown) + label, input:focus + label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all .25s;
+}
+
+.contato_formulario-campos textarea {
+    padding: 0 0.5em 0.5em;
+    margin-top: 2em;
+    resize: none;
+
+    border: none;
+}
+
+.contato_formulario-campos textarea::placeholder {
+    visibility: hidden;
+}
+
+.contato_formulario-campos textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #2A7AE4;
+}
+
+textarea:focus + label {
+    color: #2A7AE4;
+}
+
+textarea:not(:placeholder-shown) + label, textarea:focus + label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    
+    transition: all .25s;
+}

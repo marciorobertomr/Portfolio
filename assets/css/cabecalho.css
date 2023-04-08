@@ -24,3 +24,7 @@
 .cabecalho_links a {
     text-decoration: none;
 }
+
+.email {
+    font-weight: bold;
+}

@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="./assets/css/habilidades.css">
         <link rel="stylesheet" href="./assets/css/academico.css">
         <link rel="stylesheet" href="./assets/css/experiencia.css">
+        <link rel="stylesheet" href="./assets/css/contato.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
     </head>
     <body>
         <header class="cabecalho">
@@ -26,7 +28,7 @@
                     <li><a href="#">Hobbies</a></li>
                     <li><a href="#">Formação</a></li>
                     <li><a href="#">Projetos</a></li>
-                    <li><a href="#">contato@fulano.com</a></li>
+                    <li><a href="#" class="email">contato@fulano.com</a></li>
                 </ul>
             </div>
         </header>
@@ -54,7 +56,7 @@
                         Sobre mim
                     </h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vitae labore aliquam doloremque fuga. Ipsa, quaerat eius quas nisi perspiciatis provident at eaque perferendis non vitae odit? Ullam, cum molestiae.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vitae labore aliquam doloremque fuga. Ipsa, quaerat eius quas nisi perspiciatis provident at eaque perferendis non vitae odit? Ullam, cum molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ex officia necessitatibus laboriosam perspiciatis corrupti ullam omnis ipsum tempora vel. Alias quia aperiam ducimus sed excepturi repellat mollitia, sint consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, esse fuga. Nisi natus, nam corrupti voluptas atque numquam harum a pariatur ducimus, eaque quasi voluptate! Deserunt qui porro repellendus consectetur?
@@ -194,6 +196,47 @@
                     </div>
                 </article>
             </section>
+            <section class="contato">
+                <div class="contato_imagem">
+                    <img src="./assets/img/contato.svg" alt="">
+                </div>
+                <div class="contato_formulario">
+                    <h2>
+                        Contato
+                    </h2>
+                    <p>
+                        Quer entrar em contato comigo?
+                    </p>
+                    <p>
+                        Preencha o formulário abaixo e entrarei em contato o mais rápido possível.
+                    </p>
+                    <form action="#" class="contato_formulario-dados">
+                        <div class="contato_formulario-campos">
+                            <input type="text" name="nome" placeholder="nome" required>
+                            <label for="nome">Nome</label>
+                        </div>
+                        <div class="contato_formulario-campos">
+                            <input type="email" name="email" placeholder="email" required>
+                            <label for="email">E-mail</label>
+                        </div>
+                        <div class="contato_formulario-campos">
+                            <input type="text" name="assunto" placeholder="assunto" required>
+                            <label for="assunto">Assunto</label>
+                        </div>
+                        <div class="contato_formulario-campos">
+                            <textarea name="mensagem" cols="30" rows="5" placeholder="mensagem" required></textarea>
+                            <label for="mensagem">Mensagem</label>
+                        </div>
+                        <button>Enviar mensagem</button>
+                    </form>
+                </div>
+            </section>
         </main>
+        <footer class="rodape">
+            <div class="rodape_informacoes">
+                <p>Desenvolvido por Márcio</p>
+                <p>2023</p>
+            </div>
+        </footer>
     </body>
 </html>
