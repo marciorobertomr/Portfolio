@@ -14,20 +14,30 @@
     gap: 2em;
 }
 
-.academico img {
-    width: 80%;
+.academico_cursos {
+    flex: 1;
+}
+
+.academico_cursos h4 {
+    padding: 0.5em 0;
+    font-size: 1em;
+}
+
+.academico_cursos p {
+    font-size: 0.9em;
 }
 
 .academico_container-imagem {
     display: flex;
     justify-content: center;
+    max-width: 100%;
+    max-height: 10em;
 
-    padding: 4em 4em;
+    padding: 3em 3em;
 
     background-color: #FFFFFF;
 }
 
-.academico_cursos h4 {
-    padding: 0.5em 0;
-    font-size: 1.1em;
+.academico img {
+    width: 90%;
 }

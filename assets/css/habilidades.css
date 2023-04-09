@@ -33,7 +33,17 @@
     background-color: #FFFFFF;
 }
 
-.habilidades_skills-lista img, .habilidades_hobbies-lista img {
-    width: 2em;
+.habilidades_skills-lista p, .habilidades_hobbies-lista p {
+    font-size: 0.9em;
+}
+
+.habilidades_imagem-cozinhar {
+    width: 2.5em;
     margin-bottom: 0.5em;
+}
+
+.habilidades_icones {
+    font-size: 2.5em;
+    color: #2A7AE4;
+    margin-bottom: 0.2em;
 }

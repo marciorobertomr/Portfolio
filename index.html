@@ -14,189 +14,206 @@
         <link rel="stylesheet" href="./assets/css/experiencia.css">
         <link rel="stylesheet" href="./assets/css/contato.css">
         <link rel="stylesheet" href="./assets/css/footer.css">
+
+        <!-- Icone SQL -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     </head>
     <body>
         <header class="cabecalho">
             <div class="cabecalho_nome">
-                <img src="./assets/img/header.svg" alt="">
+                <ion-icon class="cabecalho_icone" name="caret-forward-outline"></ion-icon>
                 Márcio Roberto
             </div>
             <div class="cabecalho_links">
                 <ul>
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Hobbies</a></li>
-                    <li><a href="#">Formação</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#" class="email">contato@fulano.com</a></li>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#academico">Formação</a></li>
+                    <li><a href="#experiencia">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </div>
         </header>
         <main>
-            <section class="perfil">
+            <section class="perfil" id="perfil">
                 <div class="perfil_sobre-mim">
                     <h1>Olá, meu nome é Márcio Roberto e construo páginas web</h1>
                     <p>
-                        Eu sou formado em Administração e estou migrando para a área da TI. Atualmente estou participando do projeto Oracle ONE na Alura.
+                        Sou formado em Administração e recém migrado para a área da TI. Atualmente curso a trilha de Front-end pelo Programa ONE.
                     </p>
                     <ul class="perfil_redes-sociais">
-                        <li><a href="#">Github</a></li>
-                        <li><a href="#">Linkedin</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Curriculo</a></li>
+                        <li><a href="https://github.com/marciorobertomr" target="_blank">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/marciorobertomr/" target="_blank">Linkedin</a></li>
+                        <li><a href="https://www.instagram.com/marcioroberto_mr/" target="_blank">Instagram</a></li>
+                        <li><a href="">Currículo</a></li>
                     </ul>
                 </div>
                 <div class="perfil_foto">
                     <img src="https://github.com/marciorobertomr.png" alt="">
                 </div>
             </section>
-            <section class="sobre-mim">
+            <section class="sobre-mim" id="sobre-mim">
                 <div class="sobre-mim_informacoes">
                     <h2>
                         Sobre mim
                     </h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vitae labore aliquam doloremque fuga. Ipsa, quaerat eius quas nisi perspiciatis provident at eaque perferendis non vitae odit? Ullam, cum molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sou formado em Técnico de Informação pelo Instituto Federal de Ciência e Tecnologia do Ceará e graduado em Administração de Empresas pela UniFanor Wyden no ano de 2021. Em agosto de 2022, decidi retomar meus estudos na área de TI, tomando como foco o desenvolvimento web através das tecnologias: HTML, CSS e JavaScript.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ex officia necessitatibus laboriosam perspiciatis corrupti ullam omnis ipsum tempora vel. Alias quia aperiam ducimus sed excepturi repellat mollitia, sint consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, esse fuga. Nisi natus, nam corrupti voluptas atque numquam harum a pariatur ducimus, eaque quasi voluptate! Deserunt qui porro repellendus consectetur?
+                        Atualmente atuo como Analista de Suporte de Sistemas da Informação em uma empresa privada e estou me preparando para também atuar como Freelancer em Desenvolvimento Web. Também faço parte do Programa ONE, uma parceria entre a Alura e Oracle que irá me permitir adquirir uma certificação como Desenvolvedor Front-end em Junho/2023.
+                    </p>
+                    <p>
+                        Curiosidade: Já publiquei um livro pela Amazon em formato digital, intitulado: Aprimorados - Os Três Primeiros.
                     </p>
                 </div>
             </section>
             <section class="habilidades">
-                <div class="habilidades_skills">
+                <div class="habilidades_skills" id="skills">
                     <h2>
                         Skills
                     </h2>
                     <ul class="habilidades_skills-lista">
                         <li>
-                            <img src="./assets/img/Skills/html.svg" alt="">
+                            <!-- <img src="./assets/img/Skills/html.svg" alt=""> -->
+                            <ion-icon class="habilidades_icones" name="logo-html5"></ion-icon>
                             <p>Html 5</p>
                         </li>
                         <li>
-                            <img src="./assets/img/Skills/css.svg" alt="">
+                            <!-- <img src="./assets/img/Skills/css.svg" alt=""> -->
+                            <ion-icon class="habilidades_icones" name="logo-css3"></ion-icon>
                             <p>CSS</p>
                         </li>
                         <li>
-                            <img src="./assets/img/Skills/javascript.svg" alt="">
+                            <!-- <img src="./assets/img/Skills/javascript.svg" alt=""> -->
+                            <ion-icon class="habilidades_icones" name="logo-javascript"></ion-icon>
                             <p>JavaScript</p>
                         </li>
                         <li>
-                            <img src="./assets/img/Skills/php.svg" alt="">
-                            <p>PHP</p>
+                            <!-- <img src="./assets/img/Skills/php.svg" alt=""> -->
+                            <ion-icon class="habilidades_icones" name="logo-github"></ion-icon>
+                            <p>Github</p>
                         </li>
                         <li>
-                            <img src="./assets/img/Skills/nodejs.svg" alt="">
-                            <p>Node JS</p>
+                            <!-- <img src="./assets/img/Skills/nodejs.svg" alt=""> -->
+                            <i class="habilidades_icones devicon-mysql-plain"></i>
+                            <p>MySQL</p>
                         </li>
                         <li>
                             <div>
-                                <img src="./assets/img/Skills/react.svg" alt="">
+                                <!-- <img src="./assets/img/Skills/react.svg" alt=""> -->
+                                <ion-icon class="habilidades_icones" name="logo-react"></ion-icon>
                                 <p>React</p>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class="habilidades_hobbies">
+                <div class="habilidades_hobbies" id="hobbies">
                     <h2>
                         Hobbies
                     </h2>
                     <ul class="habilidades_hobbies-lista">
                         <li>
-                            <img src="./assets/img/hobbies/skateboarding.svg" alt="">
-                            <p>Andar de skate</p>
+                            <!-- <img src="./assets/img/hobbies/skateboarding.svg" alt=""> -->
+                            <ion-icon class="habilidades_icones" name="reader-outline"></ion-icon>
+                            <p>Escrever histórias</p>
                         </li>
                         <li>
-                            <img src="./assets/img/hobbies/guitar.svg" alt="">
-                            <p>Tocar baixo</p>
+                            <!-- <img src="./assets/img/hobbies/guitar.svg" alt=""> -->
+                            <ion-icon class="habilidades_icones" name="book-outline"></ion-icon>
+                            <p>Ler livros</p>
                         </li>
                         <li>
-                            <img src="./assets/img/hobbies/headphones.svg" alt="">
-                            <p>Ouvir música</p>
+                            <!-- <img src="./assets/img/hobbies/headphones.svg" alt=""> -->
+                            <ion-icon class="habilidades_icones" name="headset-outline"></ion-icon>
+                            <p>Ouvir músicas</p>
                         </li>
                         <li>
-                            <img src="./assets/img/hobbies/tv.svg" alt="">
+                            <!-- <img src="./assets/img/hobbies/tv.svg" alt=""> -->
+                            <ion-icon class="habilidades_icones" name="tv-outline"></ion-icon>
                             <p>Assistir séries</p>
                         </li>
                         <li>
-                            <img src="./assets/img/hobbies/restaurant.svg" alt="">
+                            <img class="habilidades_imagem-cozinhar" src="./assets/img/hobbies/restaurant.svg" alt="">
                             <p>Cozinhar</p>
                         </li>
                         <li>
-                            <img src="./assets/img/hobbies/photo_camera.svg" alt="">
-                            <p>Tirar fotos</p>
+                            <!-- <img src="./assets/img/hobbies/photo_camera.svg" alt=""> -->
+                            <ion-icon class="habilidades_icones" name="game-controller-outline"></ion-icon>
+                            <p>Jogar</p>
                         </li>
                     </ul>
                 </div>
             </section>
-            <section class="academico">
+            <section class="academico" id="academico">
                 <h2>Formação Acadêmica</h2>
                 <article>
                     <div class="academico_cursos">
                         <div class="academico_container-imagem">
-                            <img src="./assets/img/academico/curso1.svg" alt="">
+                            <img src="./assets/img/academico/ifce-logo.png" alt="">
                         </div>
-                        <h4>Análise de dados</h4>
-                        <p>2018 - UFRP</p>
+                        <h4>Técnico em Informática</h4>
+                        <p>2014 - IFCE</p>
                     </div>
                     <div class="academico_cursos">
                         <div class="academico_container-imagem">
-                            <img src="./assets/img/academico/curso2.svg" alt="">
+                            <img src="./assets/img/academico/unifanor-logo-2.png" alt="">
                         </div>
-                        <h4>Formação UX Design</h4>
-                        <p>2019 - Alura</p>
+                        <h4>Graduação em Administração</h4>
+                        <p>2021 - UniFanor Wyden</p>
                     </div>
                     <div class="academico_cursos">
                         <div class="academico_container-imagem">
-                            <img src="./assets/img/academico/curso3.svg" alt="">
+                            <img src="./assets/img/academico/alura-logo(2).png" alt="">
                         </div>
-                        <h4>Pós-graduação design</h4>
-                        <p>Em andamento - UFRJ</p>
+                        <h4>Programa One - Front-end</h4>
+                        <p>Em andamento - Alura</p>
                     </div>
                 </article>
             </section>
-            <section class="experiencia">
+            <section class="experiencia" id="experiencia">
                 <h2>Experiência Profissional</h2>
                 <article class="experiencia_projetos">
                     <div class="experiencia_projetos-detalhes">
-                        <img src="./assets/img/projetos/projeto1.svg" alt="">
+                        <img src="./assets/img/projetos/Decodificador.png" alt="">
                         <div>
                             <h4>Decodificador de texto</h4>
                             <p>Challenge Alura Codificador</p>
-                            <button>Repositório</button>
-                            <button>Ver demo</button>
+                            <a target="_blanck" href="https://github.com/marciorobertomr/Decodificador">Repositório</a>
+                            <a target="_blanck" href="https://marciorobertomr.github.io/Decodificador/">Ver demo</a>
                         </div>
                     </div>
                     <div class="experiencia_projetos-detalhes">
-                        <img src="./assets/img/projetos/projeto2.svg" alt="">
+                        <img src="./assets/img/projetos/site-freelancer.png" alt="">
                         <div>
-                            <h4>Jogo criado com HTML, CSS e JavaScript</h4>
-                            <p>Challenge Oracle</p>
-                            <button>Repositório</button>
-                            <button>Ver demo</button>
+                            <h4>Site One Page</h4>
+                            <p>Modelo de site para freelancer</p>
+                            <a target="_blanck" href="https://github.com/marciorobertomr/site-modelo-freelancer">Repositório</a>
+                            <a target="_blanck" href="https://marciorobertomr.github.io/site-modelo-freelancer/">Ver demo</a>
                         </div>
                     </div>
                     <div class="experiencia_projetos-detalhes">
-                        <img src="./assets/img/projetos/projeto3.svg" alt="">
+                        <img src="./assets/img/projetos/calculadora.jpg" alt="">
                         <div>
-                            <h4>Decodificador de texto</h4>
-                            <p>Challenge Alura Codificador</p>
-                            <button>Repositório</button>
-                            <button>Ver demo</button>
+                            <h4>Calculadora de Média</h4>
+                            <p>Modelo para cálculo de notas</p>
+                            <a target="_blanck" href="https://github.com/marciorobertomr/CalculadoraMedia">Repositório</a>
+                            <a target="_blanck" href="https://marciorobertomr.github.io/CalculadoraMedia/">Ver demo</a>
                         </div>
                     </div>
                     <div class="experiencia_projetos-detalhes">
-                        <img src="./assets/img/projetos/projeto4.svg" alt="">
+                        <img src="./assets/img/projetos/rastreador-de-habitos.jpg" alt="">
                         <div>
-                            <h4>Jogo criado com HTML, CSS e JavaScript</h4>
-                            <p>Challenge Oracle</p>
-                            <button>Repositório</button>
-                            <button>Ver demo</button>
+                            <h4>Rastreador de Hábitos</h4>
+                            <p>Evento NLW - Setup</p>
+                            <a target="_blanck" href="https://github.com/marciorobertomr/NLW-Setup">Repositório</a>
+                            <a target="_blanck" href="https://marciorobertomr.github.io/NLW-Setup/">Ver demo</a>
                         </div>
                     </div>
                 </article>
             </section>
-            <section class="contato">
+            <section class="contato" id="contato">
                 <div class="contato_imagem">
                     <img src="./assets/img/contato.svg" alt="">
                 </div>
@@ -239,4 +256,7 @@
             </div>
         </footer>
     </body>
+    <!-- Script dos Ícones -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>

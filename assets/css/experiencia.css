@@ -24,22 +24,25 @@
 }
 
 .experiencia_projetos-detalhes p {
-    margin: 0.5em 0;
+    margin: 0.5em 0 1.2em;
+    font-size: 0.9em;
 }
 
 .experiencia_projetos-detalhes:nth-child(even) {
     flex-direction: row-reverse;
 }
 
-.experiencia_projetos-detalhes button {
-    padding: 1em;
+.experiencia_projetos-detalhes a {
+    padding: 0.8em;
+    font-size: 0.8em;
     color: white;
     background-color: #2A7AE4;
     border: 1px solid #2A7AE4;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.experiencia_projetos-detalhes button:nth-child(odd) {
+.experiencia_projetos-detalhes a:nth-child(odd) {
     color: #2A7AE4;
     background-color: transparent;
     border: 1px solid #2A7AE4;

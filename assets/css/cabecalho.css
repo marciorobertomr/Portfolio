@@ -12,6 +12,10 @@
     gap: 0.5em;
 }
 
+.cabecalho_icone {
+    font-size: 1.3em;
+}
+
 .cabecalho_links ul {
     display: flex;
     gap: 2em;
@@ -23,8 +27,4 @@
 
 .cabecalho_links a {
     text-decoration: none;
-}
-
-.email {
-    font-weight: bold;
 }
