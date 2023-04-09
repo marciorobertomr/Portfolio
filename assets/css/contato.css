@@ -7,10 +7,12 @@
 
 .contato_imagem {
     flex: 4;
+    text-align: center;
 }
 
 .contato_imagem img {
-    width: 94.6%;
+    /* width: 94.6%; */
+    max-height: 32.6em;
 }
 
 .contato_formulario {
@@ -104,4 +106,68 @@ textarea:not(:placeholder-shown) + label, textarea:focus + label {
     top: 0.25rem;
     
     transition: all .25s;
+}
+
+@media screen and (max-width: 480px) {
+    .contato {
+        flex-direction: column-reverse;
+        padding: 4em 1em 2em;
+        text-align: center;
+    }
+
+    .contato_imagem img {
+        display: none;
+    }
+
+    .contato_formulario-dados button {
+        margin-top: 2em;
+        padding: 1.5em;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .contato {
+        flex-direction: column-reverse;
+        padding: 3em 3em 3em;
+        text-align: center;
+    }
+
+    .contato_imagem img {
+        display: none;
+    }
+
+    .contato_formulario-dados {
+        width: 80%;
+        margin: auto;
+    }
+
+    .contato_formulario-dados button {
+        margin-top: 2em;
+        padding: 1.5em;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .contato {
+        flex-direction: column-reverse;
+        padding: 4em 4em 3em;
+        text-align: center;
+    }
+
+    .contato_imagem img {
+        display: none;
+    }
+
+    .contato_formulario-dados {
+        width: 80%;
+        margin: auto;
+    }
+
+    .contato_formulario-dados button {
+        margin-top: 2em;
+        padding: 1.5em;
+        font-size: 1.2em;
+    }
 }

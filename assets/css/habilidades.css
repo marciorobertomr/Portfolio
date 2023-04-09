@@ -47,3 +47,49 @@
     color: #2A7AE4;
     margin-bottom: 0.2em;
 }
+
+@media screen and (max-width: 480px) {
+    .habilidades {
+        margin: 4em 1em;
+    }
+
+    .habilidades_skills-lista, .habilidades_hobbies-lista {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .habilidades_skills-lista li, .habilidades_hobbies-lista li {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .habilidades {
+        margin: 3em 2em;
+    }
+
+    .habilidades_skills-lista, .habilidades_hobbies-lista {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .habilidades_skills-lista li, .habilidades_hobbies-lista li {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .habilidades {
+        margin: 4em 4em;
+    }
+
+    .habilidades_skills-lista li, .habilidades_hobbies-lista li {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

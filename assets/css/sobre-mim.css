@@ -11,5 +11,26 @@
 }
 
 .sobre-mim_informacoes p {
-    margin: 1em auto;
+    margin: 1.2em auto;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 480px) {
+    .sobre-mim_informacoes {
+        padding: 4em 1em;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .sobre-mim_informacoes {
+        padding: 3em 2em;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .sobre-mim_informacoes {
+        padding: 4em 4em;
+    }
 }
