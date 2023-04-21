@@ -12,6 +12,12 @@
     gap: 0.5em;
 }
 
+.cabecalho_nome:hover {
+    scale: 120%;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
 .cabecalho_icone {
     font-size: 1.3em;
 }
@@ -23,6 +29,11 @@
     list-style: none;
 
     font-size: 1em;
+}
+
+.cabecalho_links a:hover {
+    border-bottom: 2px solid #464646;
+    color: #464646;
 }
 
 .cabecalho_links a {

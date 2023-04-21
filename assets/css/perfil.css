@@ -43,19 +43,47 @@
 
 .perfil_redes-sociais a::after {
     content: url(../img/seta.svg);
-
+    
     margin-left: 0.2em;
+}
+
+.perfil_redes-sociais a:hover {
+    /* border-bottom: 1px solid #464646; */
+    text-decoration: underline #464646;
 }
 
 .perfil_foto {
     width: 30%;
 }
 
+.perfil_foto img:hover {
+    scale: 110%;
+    transition: 0.4s;
+}
+
 .perfil_foto img {
     /* width: 60%; */
     max-width: 100%;
     border-radius: 50%;
+
+    animation-duration: 3s;
+    animation-name: foto;
+    animation-delay: 0.4s;
+    animation-fill-mode: backwards;
 }
+
+@keyframes foto {
+    from {
+        opacity: 0;
+        transform: translateX(100px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 
 @media screen and (max-width: 480px) {
     .perfil {
@@ -84,7 +112,7 @@
     }
 
     .perfil_foto {
-        width: 100%;
+        width: 60vw;
     }
 }
 

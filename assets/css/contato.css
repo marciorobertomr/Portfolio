@@ -3,6 +3,7 @@
     padding: 8em 9em 4em;
 
     display: flex;
+    gap: 1em;
 }
 
 .contato_imagem {
@@ -25,14 +26,6 @@
 
 .contato_formulario-dados {
     margin: 2em 0;
-}
-
-.contato_formulario-dados button {
-    padding: 1em;
-    color: white;
-    background-color: #2A7AE4;
-    border: 1px solid #2A7AE4;
-    cursor: pointer;
 }
 
 .contato_formulario-campos {
@@ -82,7 +75,7 @@ input:not(:placeholder-shown) + label, input:focus + label {
 
 .contato_formulario-campos textarea {
     padding: 0 0.5em 0.5em;
-    margin-top: 2em;
+    padding-top: 2em;
     resize: none;
 
     border: none;
@@ -106,6 +99,69 @@ textarea:not(:placeholder-shown) + label, textarea:focus + label {
     top: 0.25rem;
     
     transition: all .25s;
+}
+
+.input_container--invalido {
+    margin-bottom: 0.5rem;
+    background-color: #EAF2FD;
+}
+
+.input_container--invalido .input {
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.input_container--invalido .input-label {
+    color: red;
+}
+
+.input_mensagem--erro {
+    display: none;
+}
+
+.input_container--invalido .input_mensagem--erro {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.textarea_container--invalido {
+    margin-bottom: 0.5rem;
+    background-color: #EAF2FD;
+}
+
+.textarea_container--invalido .textarea {
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.textarea_container--invalido .textarea-label {
+    color: red;
+}
+
+.textarea_mensagem--erro {
+    display: none;
+}
+
+.textarea_container--invalido .textarea_mensagem--erro {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.contato_formulario-dados button {
+    padding: 1em;
+    color: white;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    cursor: pointer;
+}
+
+.contato_formulario-dados button:hover {
+    scale: 110%;
+    transition: 0.4s;
 }
 
 @media screen and (max-width: 480px) {
@@ -149,7 +205,7 @@ textarea:not(:placeholder-shown) + label, textarea:focus + label {
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1180px) {
     .contato {
         flex-direction: column-reverse;
         padding: 4em 4em 3em;
